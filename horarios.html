@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto html 2</title>
+    <link href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 29px -19px 10px -10px rgba(0,0,0,0); 
+            box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 29px -19px 10px -10px rgba(0,0,0,0);
+            border: solid 1px #3b2d21;
+            width: 1000px;
+            height: 250px;
+        }
+        table tbody td{
+            text-align: center;
+        }
+        table tr:nth-child(even) {
+            background-color: #F8F7F4;
+        }
+        table tr:hover td{
+            background-color: beige;
+        }
+        table thead th{
+            background-color: #5B4F47;
+            color: #F8F7F4;
+            height: 50px;
+        }
+        table tfoot td{
+            background-color:#F8F7F4 
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="cabeçalho">
+        <header>
+            <center><img width="70%" src="img/horários.jpg" alt="Clinica" float="center"></center>
+        </header>
+    </div>
+    
+    <div>
+        <nav id="menu-h">
+            
+         <center><ul>
+            <li>
+                <a href="paginaprincipal.html" target="_self">Início</a> 
+            </li>
+            <li>
+                <a href="quemsomos.html" target="_self">Quem somos</a> 
+            </li>
+            <li>
+                <a href="especialidades.html" target="_self">Especialidades</a> 
+            </li>
+            <li>
+                <a href="horarios.html" target="_self">Horários</a> 
+            </li>
+            <li>
+                <a href="contatos.html" target="_self">Contatos</a>
+            </li>
+        </ul></center>
+    </nav>
+    </div>
+
+    <div id="principal">
+        <h1></h1>
+        <center>
+            <h1>Horários de Atendimento</h1>
+            <br>
+            <hr>
+            <br>
+            <h2>Nosso Espaço de Cuidado e Desenvolvimento</h2>
+            <br>
+            <br>
+            <p>Aqui em nossa clinica trabalhamos com as seguintes especialidades: Psicoterapia para Adultos, Psicoterapia Infantil, Psicopedagogia, além de contarmos com as modalidades de Psicoterapia Presencial e Online</p>
+        </center>
+        <br>
+        <br>
+        <br>
+<center><table summary="Esta tabela se refere aos horários e serviços da clínica Mente Saudável"  width="800px" align="center" cellspacing="0" cellpadding="10px">
+    
+    <thead>
+        <tr>
+            <th colspan="4">Nossos Horários e serviços</th>
+        </tr>
+       
+        <tr>
+        <th>Serviços</th>
+        <th>Segunda à sexta</th>
+        <th width="150px">Domingos</th>
+        <th>Feriados</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    <tr>
+        <td>Psicoterapia para adultos</td>
+        <td>08h às 19h</td>
+        <td>09h às 12h</td>
+        <td>09h às 14h</td>
+    </tr>
+    <tr>
+        <td>Psicoterapia para crianças</td>
+        <td>08h às 19h</td>
+        <td>09h às 12h</td>
+        <td>09h às 12h</td>
+    </tr>
+    <tr>
+        <td>Psicopedagogia</td>
+        <td>08h às 19h</td>
+        <td>08h às 12h</td>
+        <td>08h às 14h</td>
+    </tr>
+    <tr>
+        <td>Psicopedagogia Online</td>
+        <td>08h às 19h</td>
+        <td>08h às 12h</td>
+        <td>08h às 14h</td>
+    </tr>
+        <td>Psicoterapias Online</td>
+        <td>07h às 19h</td>
+        <td>08h às 12h</td>
+        <td>09h às 15h</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+       <td colspan="4">*para demais informações entre em contato</td>
+    </tr>
+</tfoot>
+</table>
+</center>
+    </div>
+    <div id="lado">
+        <center><img width="532px" src="img/pexels-ann-poan-5799379.jpg" alt="horarios"></center>
+        <p></p>
+    </div>
+
+    <div id="rodapé">
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts"> 
+                    <h1>Mente saldável</h1>
+                    <p>Nosso Espaço de Cuidado e Desenvolvimento</p>
+
+                    <div id="footer_social_media">
+                        
+                        <a href="#" class="footer-link" id="whatsapp"></a>
+                        <i class="fa-brands fa-whatsapp"></i> (11)91234-5678
+                        <p>
+                        <a href="#" class="footer-link" id="e-mail"></a>
+                        <i class="fa-regular fa-envelope"></i> mentesaudavel@clinica.com </p>
+                        <a href="#" class="footer-link" id="instagram"></a>
+                        <i class="fa-brands fa-instagram"></i> mente_saudavel_oficial
+                    </div>
+                </div>
+            </div>
+        
+    </footer>
+    </div>
+</body>
+</html>
